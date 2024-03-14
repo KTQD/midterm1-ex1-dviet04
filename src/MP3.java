@@ -14,4 +14,14 @@ public class MP3 extends Item{
     public void setDuration(double duration) {
         this.duration = duration;
     }
+
+    public void showInFo() {
+        System.out.println("nameItem:" + getNameItem());
+        System.out.println("descriptionItem:" + getDescriptionItem());
+        System.out.println("ID_Item:" + ID_Item);
+        System.out.println("price:" + priceItem);
+        System.out.println("duration" + duration);
+    }
+
+
 }
