@@ -21,7 +21,7 @@ public abstract class Item {
     public void setDescriptionItem(String descriptionItem) {
         this.descriptionItem = descriptionItem;
     }
-    public void Item (String nameItem, String descriptionItem, String ID_Item, float priceItem) {
+    public Item (String nameItem, String descriptionItem, String ID_Item, float priceItem) {
         this.nameItem = nameItem;
         this.descriptionItem = descriptionItem;
         this.ID_Item = ID_Item;
