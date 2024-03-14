@@ -27,4 +27,6 @@ public abstract class Item {
         this.ID_Item = ID_Item;
         this.priceItem = priceItem;
     }
+
+    public abstract void showInFo();
 }
